@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(15, 15, 15);
+}
+.container{
+    width: 930px;
+    background-color: black;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 0 rgb(19, 18, 18);
+}
+p{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 3px 0 gray;
+    line-height: 50px;
+    margin: 5px;
+}
+#space{
+    width: 300px;
+}
+.active{
+    color: yellow;
+    box-shadow: 0 0 10px 0 white;
+}
